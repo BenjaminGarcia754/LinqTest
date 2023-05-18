@@ -46,7 +46,7 @@ namespace LinqConexion
 
             foreach (Alumno alumno in resultado)
             {
-                alumno.getDatosAlumno();
+                alumno.GetDatosAlumno();
             }
         }
         
@@ -74,7 +74,7 @@ namespace LinqConexion
                 alumno1.matricula = alumno.matriculaAlumno;
                 alumno1.promedio = alumno.promedioAlumno;
                 alumno1.nombreCarrera = alumno.carreraAlumno;
-                alumno1.getDatosAlumno();        
+                alumno1.GetDatosAlumno();        
             }
         }
     }
